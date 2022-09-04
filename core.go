@@ -63,3 +63,18 @@ func LiteralWithLanguage(value, lang string) Term {
 func LiteralWithDatatype(value, dt string) Term {
 	return Term{Value: value, Datatype: dt, Kind: LiteralTerm}
 }
+
+// IsIRI reports whether the term is an IRI
+func IsIRI(t Term) bool {
+	return t.Kind == IRITerm
+}
+
+// IsBlank reports whether the term is blank
+func IsBlank(t Term) bool {
+	return t.Kind == BlankTerm
+}
+
+// IsLiteral reports whether the term is a literal
+func IsLiteral(t Term) bool {
+	return t.Kind == LiteralTerm
+}
