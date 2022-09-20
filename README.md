@@ -1,4 +1,12 @@
-# gordf - an ultra minimal RDF library for Go
+# gordf 
+
+An ultra minimal RDF library for Go
+
+[![Check Status](https://github.com/iand/gordf/actions/workflows/check.yml/badge.svg)](https://github.com/iand/gordf/actions/workflows/check.yml)
+[![Test Status](https://github.com/iand/gordf/actions/workflows/test.yml/badge.svg)](https://github.com/iand/gordf/actions/workflows/test.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/iand/gordf)](https://goreportcard.com/report/github.com/iand/gordf)
+[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/iand/gordf)
+
 
 ## Overview
 
